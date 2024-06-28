@@ -452,7 +452,26 @@ export const zh_CN = {
   backToDate:  '回退到日历选项卡'
 }
 
+/**
+ * @type {i18nType} Romanian translation by hktr92
+ */
+export const ro = {
+  days:        ['Duminică', 'Luni', 'Marți', 'Miercuri', 'Joi', 'Vineri', 'Sâmbătă', 'Duminică'],
+  daysShort:   ['Dum', 'Lun', 'Mar', 'Mie', 'Joi', 'Vin', 'Sâm', 'Dum'],
+  daysMin:     ['Du', 'Lu', 'Ma', 'Mi', 'Jo', 'Vi', 'Sâ', 'Du'],
+  months:      ['Ianuarie', 'Februarie', 'Martie', 'Aprilie', 'Mai', 'Iunie', 'Iulie', 'August', 'Septembrie', 'Octombrie', 'Noiembrie', 'Decembrie'],
+  monthsShort: ['Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Noi', 'Dec'],
+  meridiem:    ['am', 'pm'],
+  suffix:      ['', '', '', ''],
+  todayBtn:    'Astăzi',
+  clearBtn:    'Șterge',
+  okBtn:       'OK',
+  cancelBtn:   'Anulează',
+  timeView:    'Afișează timpul',
+  backToDate:  'Înapoi la calendar'
+}
+
 // always keep it sorted alphabetically
 export default {
-  ar_DZ, ar_MR, ar_YE, cz, da, de, en, es, fr, hr, hu, id, it, jp, ko, nl, pt_BR, sk, sv, th, tr, zh_CN
+  ar_DZ, ar_MR, ar_YE, cz, da, de, en, es, fr, hr, hu, id, it, jp, ko, nl, pt_BR, ro, sk, sv, th, tr, zh_CN
 }
